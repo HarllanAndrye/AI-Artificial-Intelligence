@@ -10,3 +10,13 @@
 **4. Software:** Utilizar implementações já disponíveis dos quatro algoritmos (um tipo de Busca Cega, Busca Gulosa, Busca A* e Algoritmos Genéticos).
 
 
+
+**Referências**
+
+- Dalmau, Vicente J. Ferrer. El problema del viajante de comercio. Disponível em: <https://code.google.com/p/tspuib/source/browse/trunk/TravelingSalesMan/src/travelingsalesman/?r=13>. Acesso em: 15 de Outubro de 2015.
+
+- Kalina, Dave et al. The generic genetic problem sover. Dispoível em: <http://www.cs.columbia.edu/~evs/ais/finalprojs/kalina/>. Acesso em: 15 de Outubro de 2015.
+
+
+
+
