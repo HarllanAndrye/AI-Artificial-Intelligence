@@ -1,0 +1,93 @@
+
+ITERATION 1: 
+   Particle 1, x = 1.0
+   Particle 2, x = 2.0
+   Particle 3, x = -3.0
+   Particle 4, x = 1.0
+---
+   Best X: 1.0
+   f(x) = x²-3x+4 = 2.0
+
+ITERATION 2: 
+   Particle 1, x = 1.0
+   Particle 2, x = 2.0
+   Particle 3, x = -2.0
+   Particle 4, x = 1.0
+---
+   Best X: 1.0
+   f(x) = x²-3x+4 = 2.0
+
+ITERATION 3: 
+   Particle 1, x = 1.0
+   Particle 2, x = 2.0
+   Particle 3, x = 0.0
+   Particle 4, x = 1.0
+---
+   Best X: 1.0
+   f(x) = x²-3x+4 = 2.0
+
+ITERATION 4: 
+   Particle 1, x = 1.0
+   Particle 2, x = 2.0
+   Particle 3, x = 2.0
+   Particle 4, x = 1.0
+---
+   Best X: 1.0
+   f(x) = x²-3x+4 = 2.0
+
+ITERATION 5: 
+   Particle 1, x = 1.0
+   Particle 2, x = 2.0
+   Particle 3, x = 3.0
+   Particle 4, x = 1.0
+---
+   Best X: 1.0
+   f(x) = x²-3x+4 = 2.0
+
+ITERATION 6: 
+   Particle 1, x = 1.0
+   Particle 2, x = 2.0
+   Particle 3, x = 3.0
+   Particle 4, x = 1.0
+---
+   Best X: 1.0
+   f(x) = x²-3x+4 = 2.0
+
+ITERATION 7: 
+   Particle 1, x = 1.0
+   Particle 2, x = 2.0
+   Particle 3, x = 2.0
+   Particle 4, x = 1.0
+---
+   Best X: 1.0
+   f(x) = x²-3x+4 = 2.0
+
+ITERATION 8: 
+   Particle 1, x = 1.0
+   Particle 2, x = 2.0
+   Particle 3, x = 1.0
+   Particle 4, x = 1.0
+---
+   Best X: 1.0
+   f(x) = x²-3x+4 = 2.0
+
+ITERATION 9: 
+   Particle 1, x = 1.0
+   Particle 2, x = 2.0
+   Particle 3, x = 1.0
+   Particle 4, x = 1.0
+---
+   Best X: 1.0
+   f(x) = x²-3x+4 = 2.0
+
+ITERATION 10: 
+   Particle 1, x = 1.0
+   Particle 2, x = 2.0
+   Particle 3, x = 1.0
+   Particle 4, x = 1.0
+---
+   Best X: 1.0
+   f(x) = x²-3x+4 = 2.0
+
+The solution found is: x = 1
+
