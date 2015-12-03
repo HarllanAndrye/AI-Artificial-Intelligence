@@ -1,0 +1,711 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.MultilayerPerceptron -L 0.08 -M 0.8 -N 300 -V 0 -S 0 -E 20 -H 10
+Relation:     letterRecognition
+Instances:    20000
+Attributes:   17
+              class
+              x-box
+              y-box
+              width
+              high
+              onpix
+              x-bar
+              y-bar
+              x2bar
+              y2bar
+              xybar
+              x2ybr
+              xy2br
+              x-ege
+              xegvy
+              y-ege
+              yegvx
+Test mode:split 66.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -16.588455865323805
+    Node 26    -33.44791974421846
+    Node 27    0.2006263729896623
+    Node 28    1.4760809953056102
+    Node 29    0.02620935400220977
+    Node 30    7.386949964101924
+    Node 31    6.377331250483053
+    Node 32    4.966077319894671
+    Node 33    -2.773885013902706
+    Node 34    2.0480664034666747
+    Node 35    3.234844450813162
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -29.161695711029648
+    Node 26    9.817576947796075
+    Node 27    -1.0152163204549334
+    Node 28    -6.245594619130732
+    Node 29    2.1012946539182495
+    Node 30    1.5323649294971935
+    Node 31    4.265364035734019
+    Node 32    5.382815091048978
+    Node 33    -20.286667889459277
+    Node 34    -6.446805463948435
+    Node 35    9.407711093986684
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -17.201113139390134
+    Node 26    2.381499150867308
+    Node 27    -4.669886856270975
+    Node 28    -2.2097455933127246
+    Node 29    6.156965237251268
+    Node 30    -8.238900731989238
+    Node 31    -10.990070500148217
+    Node 32    -5.189854522769357
+    Node 33    -0.9022654496035379
+    Node 34    7.928887207990037
+    Node 35    4.392862591607303
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -20.233409871016008
+    Node 26    5.787149291916962
+    Node 27    12.120395279875865
+    Node 28    -6.198033736941168
+    Node 29    -4.6477921551467105
+    Node 30    3.699813869523109
+    Node 31    -16.57293013491897
+    Node 32    4.7493663329018245
+    Node 33    -2.4827018879530978
+    Node 34    -7.5013090316079145
+    Node 35    1.8403240151958695
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -17.749200520867994
+    Node 26    6.24260153140788
+    Node 27    -5.3386633661737415
+    Node 28    -7.720448666125948
+    Node 29    8.950346047136078
+    Node 30    -2.746193183850123
+    Node 31    -5.1009173972580815
+    Node 32    -7.0452989774849435
+    Node 33    -6.514793703692684
+    Node 34    -11.161458374684953
+    Node 35    9.657090169271923
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    5.26141562067646
+    Node 26    -0.8856303277790144
+    Node 27    -3.244460672583525
+    Node 28    -6.113538881897737
+    Node 29    4.917383293343103
+    Node 30    -3.0097392280788653
+    Node 31    -4.408553080782755
+    Node 32    -3.6878882118569214
+    Node 33    -6.301027693278806
+    Node 34    -7.032100212448786
+    Node 35    -12.673971800124802
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -27.393486147785556
+    Node 26    11.259767766240994
+    Node 27    -7.952442330201113
+    Node 28    -16.65522501538173
+    Node 29    2.8271167888024205
+    Node 30    10.315723229251018
+    Node 31    -1.872132037419826
+    Node 32    -3.6434152877019916
+    Node 33    -4.8006554552502365
+    Node 34    8.338027983783341
+    Node 35    1.9530400194097384
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -10.91308187243642
+    Node 26    0.9270994276303732
+    Node 27    2.4081854909471914
+    Node 28    -6.738785047800116
+    Node 29    3.4643922784952195
+    Node 30    -0.041084750660361775
+    Node 31    -4.259399911347651
+    Node 32    1.8763040878534742
+    Node 33    6.0505604997364095
+    Node 34    -1.1884366817796872
+    Node 35    -0.741937366150765
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -18.2484928554789
+    Node 26    12.85648663852333
+    Node 27    -8.782417124106491
+    Node 28    -6.7719721506200745
+    Node 29    -7.488472114848599
+    Node 30    -14.039861302824658
+    Node 31    -1.0610699678833935
+    Node 32    10.932905314375319
+    Node 33    -9.582033018866154
+    Node 34    6.028189780190703
+    Node 35    1.7254341750282016
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -3.3271427381423564
+    Node 26    -17.056440910050696
+    Node 27    5.248009287903384
+    Node 28    3.078707876819807
+    Node 29    0.575644433957718
+    Node 30    -18.31717640968948
+    Node 31    -3.714416367265373
+    Node 32    5.956864281725236
+    Node 33    -6.434772838162396
+    Node 34    1.740635547702351
+    Node 35    5.1498872414957715
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -0.5264718980810773
+    Node 26    -18.042437038945774
+    Node 27    -21.539785048020192
+    Node 28    -7.60871567683466
+    Node 29    1.9633264545307016
+    Node 30    -0.20569505958337891
+    Node 31    -3.0066991803612906
+    Node 32    -21.83419799551217
+    Node 33    6.866719744467473
+    Node 34    -0.5735679223727035
+    Node 35    12.886189674632154
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -16.4409540588012
+    Node 26    2.1824968153040776
+    Node 27    -10.497544762287935
+    Node 28    -3.5158741487522094
+    Node 29    -10.719522860000152
+    Node 30    7.316185957061551
+    Node 31    -19.529011782196655
+    Node 32    10.900496578907378
+    Node 33    3.625404308928603
+    Node 34    2.0307309117692958
+    Node 35    -0.34269694275913304
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    -21.108560455632993
+    Node 26    -27.722292949358586
+    Node 27    9.556508836034531
+    Node 28    -9.544089371687454
+    Node 29    -12.859000421501124
+    Node 30    0.5329375863036316
+    Node 31    -2.5343918900812112
+    Node 32    -2.6441776083984974
+    Node 33    2.6213071264010557
+    Node 34    0.28216555194435466
+    Node 35    11.51372130854154
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -6.0827860644023355
+    Node 26    -5.9402804257303945
+    Node 27    -3.2101771255081175
+    Node 28    5.16540403385088
+    Node 29    -6.926100062097738
+    Node 30    13.119189703184245
+    Node 31    -22.40431130051346
+    Node 32    -8.175422073265388
+    Node 33    6.118289263128233
+    Node 34    0.6018625376715006
+    Node 35    -14.281799501161245
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    -31.06653637439285
+    Node 26    5.008823263621615
+    Node 27    13.223793743826368
+    Node 28    -16.854013623204484
+    Node 29    3.9986777169117067
+    Node 30    2.8092852414949676
+    Node 31    -6.592619795292307
+    Node 32    0.10877132442692662
+    Node 33    -3.2886832668255073
+    Node 34    7.050784815662044
+    Node 35    3.9020537707259204
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    -18.90190233523872
+    Node 26    3.704715605209576
+    Node 27    3.8946442898926454
+    Node 28    -5.827902860040378
+    Node 29    3.639422693416796
+    Node 30    3.379379982375416
+    Node 31    6.864269382619472
+    Node 32    6.112917638056144
+    Node 33    0.9456146910280051
+    Node 34    -2.9672328914974337
+    Node 35    -22.168973715915268
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    -35.72821414973911
+    Node 26    6.3181215042951795
+    Node 27    6.7424194923075715
+    Node 28    -2.76103804996733
+    Node 29    2.4704851305073636
+    Node 30    -0.501823215681415
+    Node 31    6.225047885813187
+    Node 32    -2.372162631877946
+    Node 33    -4.684850677053117
+    Node 34    14.345072527062568
+    Node 35    5.173569650054475
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    -25.49762608344184
+    Node 26    -3.180277864861345
+    Node 27    4.95698243326252
+    Node 28    -21.636687155409877
+    Node 29    4.249669709079205
+    Node 30    13.676655472651934
+    Node 31    -0.6701729587750087
+    Node 32    -3.7270366278871543
+    Node 33    -6.280812533733558
+    Node 34    -5.4509212316680475
+    Node 35    10.304240329351986
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    -16.772833890083323
+    Node 26    2.690365753043447
+    Node 27    -3.7496721913760283
+    Node 28    -0.2651963930645782
+    Node 29    5.142520810438646
+    Node 30    -5.066333817927201
+    Node 31    4.245829652231078
+    Node 32    3.198231798816527
+    Node 33    -5.958492871935946
+    Node 34    0.8599747518026724
+    Node 35    4.655636215637562
+Sigmoid Node 19
+    Inputs    Weights
+    Threshold    -23.430319993783574
+    Node 26    11.131588314268402
+    Node 27    9.40059264946985
+    Node 28    9.59329135817494
+    Node 29    0.8191635881495545
+    Node 30    -11.011093538905525
+    Node 31    -11.881689963675443
+    Node 32    0.022113374201861484
+    Node 33    -0.49969540836222187
+    Node 34    1.6930406300852314
+    Node 35    -9.055451272445199
+Sigmoid Node 20
+    Inputs    Weights
+    Threshold    -24.39036854287182
+    Node 26    6.3815027821485
+    Node 27    8.463101168371855
+    Node 28    -1.9465628049816548
+    Node 29    -5.742974471709973
+    Node 30    -5.553711751701274
+    Node 31    -3.110614990578305
+    Node 32    -4.272759973714064
+    Node 33    6.589873976664968
+    Node 34    5.524359708716423
+    Node 35    8.05712289854047
+Sigmoid Node 21
+    Inputs    Weights
+    Threshold    -30.141074637494324
+    Node 26    8.937353259975694
+    Node 27    3.460235779073897
+    Node 28    -3.2266360303558326
+    Node 29    2.40932610947835
+    Node 30    -1.0112442250977112
+    Node 31    7.441697751997881
+    Node 32    -11.4848797539371
+    Node 33    6.621960851516706
+    Node 34    9.839184028367631
+    Node 35    -24.77188035507833
+Sigmoid Node 22
+    Inputs    Weights
+    Threshold    -12.288807846402001
+    Node 26    -10.518212417513947
+    Node 27    -1.7278801124542467
+    Node 28    -3.6206146523136704
+    Node 29    -9.698988234389182
+    Node 30    2.770210125179005
+    Node 31    13.949870617315524
+    Node 32    -11.504547481460593
+    Node 33    7.46554415564794
+    Node 34    -2.159288816955051
+    Node 35    -11.463280745626507
+Sigmoid Node 23
+    Inputs    Weights
+    Threshold    -10.372524071866046
+    Node 26    1.5412701163530078
+    Node 27    -5.684585481029483
+    Node 28    6.748133698726881
+    Node 29    -14.984475188668725
+    Node 30    1.479130242040794
+    Node 31    -0.8747214173665587
+    Node 32    -15.147434221245407
+    Node 33    -10.541837276165552
+    Node 34    -3.6665248099023553
+    Node 35    16.96701595929163
+Sigmoid Node 24
+    Inputs    Weights
+    Threshold    -4.35112825072567
+    Node 26    3.9364004553330134
+    Node 27    -6.650614667252553
+    Node 28    4.402666984338198
+    Node 29    -15.502265562168425
+    Node 30    1.0509529772916772
+    Node 31    6.946132207486342
+    Node 32    -3.705227408818885
+    Node 33    -7.892443708810761
+    Node 34    0.4148042743939697
+    Node 35    -13.20929221826496
+Sigmoid Node 25
+    Inputs    Weights
+    Threshold    -12.24497823601554
+    Node 26    -3.337455677556304
+    Node 27    -20.763824706049498
+    Node 28    4.273889429398789
+    Node 29    7.220371765373413
+    Node 30    -1.2263994264820413
+    Node 31    -4.052304994568859
+    Node 32    2.1614405308387585
+    Node 33    -9.331338455844831
+    Node 34    -32.981540772273675
+    Node 35    5.668350091904241
+Sigmoid Node 26
+    Inputs    Weights
+    Threshold    8.166009538702427
+    Attrib x-box    4.473936142456334
+    Attrib y-box    0.8584559780227498
+    Attrib width    -8.080317231831696
+    Attrib high    -1.388286954340778
+    Attrib onpix    4.6696700856133555
+    Attrib x-bar    -0.10024477887911819
+    Attrib y-bar    -4.1383960047306525
+    Attrib x2bar    1.7908853730038774
+    Attrib y2bar    7.323732703523743
+    Attrib xybar    -1.800523885267054
+    Attrib x2ybr    8.543603912932793
+    Attrib xy2br    -4.994606743052437
+    Attrib x-ege    -9.723608800929615
+    Attrib xegvy    8.273948484578804
+    Attrib y-ege    7.468916430309019
+    Attrib yegvx    2.0336062419148506
+Sigmoid Node 27
+    Inputs    Weights
+    Threshold    10.180240367144451
+    Attrib x-box    3.15208272476868
+    Attrib y-box    -1.6754161510480123
+    Attrib width    -4.344950471500565
+    Attrib high    0.7510839263440598
+    Attrib onpix    7.464984064058271
+    Attrib x-bar    12.15064197485726
+    Attrib y-bar    9.406920027111795
+    Attrib x2bar    9.53732507029281
+    Attrib y2bar    -3.0818880292910062
+    Attrib xybar    1.3609308440185135
+    Attrib x2ybr    0.5713232282625436
+    Attrib xy2br    -3.468765323998336
+    Attrib x-ege    8.876741688439191
+    Attrib xegvy    -5.810623282831204
+    Attrib y-ege    -11.16819727130404
+    Attrib yegvx    -7.109204626358535
+Sigmoid Node 28
+    Inputs    Weights
+    Threshold    -6.559049672688042
+    Attrib x-box    11.751231624493595
+    Attrib y-box    2.979618955015355
+    Attrib width    -2.307568700600247
+    Attrib high    0.9246425975389839
+    Attrib onpix    -14.59671755207582
+    Attrib x-bar    18.69558996709391
+    Attrib y-bar    2.5063512638614758
+    Attrib x2bar    -13.46714064973552
+    Attrib y2bar    -0.5076199661180417
+    Attrib xybar    -7.206270178390397
+    Attrib x2ybr    4.224542616982662
+    Attrib xy2br    1.9404458385888967
+    Attrib x-ege    -6.244166887385149
+    Attrib xegvy    7.728322453757593
+    Attrib y-ege    12.303912411652117
+    Attrib yegvx    -14.753056892799755
+Sigmoid Node 29
+    Inputs    Weights
+    Threshold    3.698893289831866
+    Attrib x-box    -2.701146997272051
+    Attrib y-box    0.965311144711726
+    Attrib width    0.6538702328532943
+    Attrib high    -5.992776391641113
+    Attrib onpix    11.540233199823707
+    Attrib x-bar    5.898304576771418
+    Attrib y-bar    17.184965315287837
+    Attrib x2bar    11.034453149253183
+    Attrib y2bar    -5.602046507432143
+    Attrib xybar    10.17661313163396
+    Attrib x2ybr    -4.880914745061896
+    Attrib xy2br    13.031828927913303
+    Attrib x-ege    -15.75447348104659
+    Attrib xegvy    -0.6765292998811803
+    Attrib y-ege    16.51427616697754
+    Attrib yegvx    3.6335290151841746
+Sigmoid Node 30
+    Inputs    Weights
+    Threshold    12.731837507091477
+    Attrib x-box    7.636798994625899
+    Attrib y-box    -0.5434818121965972
+    Attrib width    6.025270242880172
+    Attrib high    -3.317411931757752
+    Attrib onpix    -5.190311739564164
+    Attrib x-bar    -16.631824999877775
+    Attrib y-bar    -20.165340719817216
+    Attrib x2bar    0.6524493206090091
+    Attrib y2bar    -10.601049672435725
+    Attrib xybar    -3.966972925394273
+    Attrib x2ybr    -13.659867246531043
+    Attrib xy2br    -9.453237508714421
+    Attrib x-ege    25.75406940512029
+    Attrib xegvy    -1.229388349722296
+    Attrib y-ege    -5.860884382913833
+    Attrib yegvx    27.31059251992914
+Sigmoid Node 31
+    Inputs    Weights
+    Threshold    -0.2733189511447207
+    Attrib x-box    1.8321853765344673
+    Attrib y-box    -2.3988720556905156
+    Attrib width    3.9775419715186415
+    Attrib high    5.346953862565133
+    Attrib onpix    -6.531575504105397
+    Attrib x-bar    2.003349188378978
+    Attrib y-bar    -5.579403960281231
+    Attrib x2bar    -8.79894619845133
+    Attrib y2bar    -22.582844020845567
+    Attrib xybar    -3.634982965745668
+    Attrib x2ybr    8.216125721955647
+    Attrib xy2br    -5.8377276246276475
+    Attrib x-ege    -2.633653511887677
+    Attrib xegvy    10.294785342148367
+    Attrib y-ege    22.352299922231026
+    Attrib yegvx    7.095229070594502
+Sigmoid Node 32
+    Inputs    Weights
+    Threshold    -17.669174869515153
+    Attrib x-box    -0.11865998803408274
+    Attrib y-box    1.766826833816584
+    Attrib width    -7.85925808579565
+    Attrib high    -0.3920418631560247
+    Attrib onpix    6.127215237276218
+    Attrib x-bar    2.9233998159250496
+    Attrib y-bar    -19.988247373148422
+    Attrib x2bar    8.739227663051002
+    Attrib y2bar    -0.29616191791797564
+    Attrib xybar    8.554664728092284
+    Attrib x2ybr    -13.88403036466792
+    Attrib xy2br    -15.637500637526875
+    Attrib x-ege    -28.03549504442686
+    Attrib xegvy    -2.3963190211732166
+    Attrib y-ege    3.440437075442373
+    Attrib yegvx    -14.605093058735807
+Sigmoid Node 33
+    Inputs    Weights
+    Threshold    12.870384331604498
+    Attrib x-box    1.2257080288306526
+    Attrib y-box    0.15978997388516164
+    Attrib width    1.8188492719945193
+    Attrib high    -7.651136269234052
+    Attrib onpix    8.105594435687905
+    Attrib x-bar    -8.20448259458232
+    Attrib y-bar    0.9964150061284611
+    Attrib x2bar    -1.0337041770311959
+    Attrib y2bar    2.2975093159560855
+    Attrib xybar    -6.48422884457408
+    Attrib x2ybr    -0.48742855491526277
+    Attrib xy2br    4.0144530842954484
+    Attrib x-ege    33.11956044484104
+    Attrib xegvy    -0.9503681259804729
+    Attrib y-ege    -17.94629325905537
+    Attrib yegvx    3.333984952614442
+Sigmoid Node 34
+    Inputs    Weights
+    Threshold    -12.161339565860219
+    Attrib x-box    10.468479266557207
+    Attrib y-box    0.46651146362372303
+    Attrib width    1.915541593626402
+    Attrib high    6.284909422769337
+    Attrib onpix    -14.732150125631607
+    Attrib x-bar    13.652155126646102
+    Attrib y-bar    -7.0548912970640725
+    Attrib x2bar    5.414800855730248
+    Attrib y2bar    -8.871404640662133
+    Attrib xybar    -5.649189183984584
+    Attrib x2ybr    9.569719044235345
+    Attrib xy2br    9.075832907303939
+    Attrib x-ege    -10.807813033175425
+    Attrib xegvy    6.133296988788007
+    Attrib y-ege    -13.404396712098436
+    Attrib yegvx    -1.741281230186977
+Sigmoid Node 35
+    Inputs    Weights
+    Threshold    21.09342278653091
+    Attrib x-box    -1.3663385434806445
+    Attrib y-box    -0.6472555192450843
+    Attrib width    -2.2790445182746804
+    Attrib high    -2.6366053762160386
+    Attrib onpix    2.5626583890672587
+    Attrib x-bar    3.157454254649184
+    Attrib y-bar    -17.61802484601688
+    Attrib x2bar    1.5578866416714925
+    Attrib y2bar    13.666381840863563
+    Attrib xybar    -1.6911536084606018
+    Attrib x2ybr    0.3951240136565069
+    Attrib xy2br    18.522026693002957
+    Attrib x-ege    1.354682931749219
+    Attrib xegvy    -16.82653526893181
+    Attrib y-ege    15.85885556554482
+    Attrib yegvx    7.5656247934856005
+Class A
+    Input
+    Node 0
+Class B
+    Input
+    Node 1
+Class C
+    Input
+    Node 2
+Class D
+    Input
+    Node 3
+Class E
+    Input
+    Node 4
+Class F
+    Input
+    Node 5
+Class G
+    Input
+    Node 6
+Class H
+    Input
+    Node 7
+Class I
+    Input
+    Node 8
+Class J
+    Input
+    Node 9
+Class K
+    Input
+    Node 10
+Class L
+    Input
+    Node 11
+Class M
+    Input
+    Node 12
+Class N
+    Input
+    Node 13
+Class O
+    Input
+    Node 14
+Class P
+    Input
+    Node 15
+Class Q
+    Input
+    Node 16
+Class R
+    Input
+    Node 17
+Class S
+    Input
+    Node 18
+Class T
+    Input
+    Node 19
+Class U
+    Input
+    Node 20
+Class V
+    Input
+    Node 21
+Class W
+    Input
+    Node 22
+Class X
+    Input
+    Node 23
+Class Y
+    Input
+    Node 24
+Class Z
+    Input
+    Node 25
+
+
+Time taken to build model: 61.15 seconds
+
+=== Evaluation on test split ===
+=== Summary ===
+
+Correctly Classified Instances        5036               74.0588 %
+Incorrectly Classified Instances      1764               25.9412 %
+Kappa statistic                          0.7302
+Mean absolute error                      0.0235
+Root mean squared error                  0.1299
+Relative absolute error                 31.8023 %
+Root relative squared error             67.5517 %
+Total Number of Instances             6800     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.857     0.012      0.745     0.857     0.797      0.951    A
+                 0.681     0.008      0.768     0.681     0.722      0.936    B
+                 0.723     0.005      0.839     0.723     0.777      0.93     C
+                 0.855     0.028      0.552     0.855     0.671      0.974    D
+                 0.688     0.006      0.832     0.688     0.753      0.894    E
+                 0.687     0.006      0.83      0.687     0.752      0.929    F
+                 0.598     0.005      0.838     0.598     0.698      0.875    G
+                 0.255     0          0.97      0.255     0.404      0.725    H
+                 0.762     0.002      0.935     0.762     0.84       0.94     I
+                 0.845     0.007      0.822     0.845     0.834      0.946    J
+                 0.608     0.007      0.75      0.608     0.671      0.882    K
+                 0.802     0.002      0.941     0.802     0.866      0.951    L
+                 0.898     0.014      0.74      0.898     0.811      0.988    M
+                 0.794     0.004      0.899     0.794     0.843      0.972    N
+                 0.696     0.011      0.721     0.696     0.708      0.932    O
+                 0.846     0.016      0.693     0.846     0.762      0.979    P
+                 0.637     0.011      0.681     0.637     0.658      0.901    Q
+                 0.817     0.032      0.495     0.817     0.617      0.963    R
+                 0.551     0.031      0.396     0.551     0.461      0.907    S
+                 0.789     0.005      0.863     0.789     0.824      0.945    T
+                 0.807     0.007      0.838     0.807     0.822      0.967    U
+                 0.839     0.004      0.895     0.839     0.866      0.95     V
+                 0.829     0.006      0.844     0.829     0.837      0.978    W
+                 0.806     0.022      0.588     0.806     0.68       0.966    X
+                 0.759     0.007      0.799     0.759     0.779      0.958    Y
+                 0.742     0.01       0.739     0.742     0.74       0.912    Z
+Weighted Avg.    0.741     0.01       0.771     0.741     0.741      0.934
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   m   n   o   p   q   r   s   t   u   v   w   x   y   z   <-- classified as
+ 234   0   0   5   0   0   0   1   0   5   0   0   4   1   0   0   0   3   2   1   2   1   7   6   1   0 |   a = A
+  11 175   0  16   2   0   0   0   0   0   1   0   1   0   0  12   0  31   2   0   0   0   2   4   0   0 |   b = B
+   0   1 172   0   2   0  11   0   0   4  11   0   0   1   5   0   6   0  16   2   4   0   1   2   0   0 |   c = C
+   4   2   0 224   0   0   0   0   0   0   0   0   5   0   5   2   0  12   2   0   0   0   0   6   0   0 |   d = D
+   0   0   1   4 183   0   0   0   0   0   5   0   0   0   0   0   2   8  40   0   0   0   0   8   0  15 |   e = E
+   1   5   0  12   1 191   0   0   1   3   0   0   0   0   0  24   1   0  13  15   0   0   0   5   6   0 |   f = F
+   4   2  11   2   1   0 155   0   0   1   2   2   1   0   5   8  22  20  13   0   1   0   2   7   0   0 |   g = G
+   5   0   2  61   6   4   0  65   0   0   7   1  11   0  13   8   8  26   4   0  21   2   0   7   4   0 |   h = H
+   0   7   0  11   1   0   1   0 186   7   0   2   0   0   0   3   0   3  15   0   0   0   0   5   0   3 |   i = I
+   1   1   1   9   0   0   0   0   1 213   0   0   2   0   1   9   0   1   9   1   0   0   0   3   0   0 |   j = J
+   5   0   3   9   1   1   3   0   0   0 144   0   5   2   0   0   0  41   1   0   9   2   1  10   0   0 |   k = K
+   0   4   0   2   2   0   5   0   0   0   5 207   4   0   0   0   0   2  13   0   0   0   0  14   0   0 |   l = L
+   0   0   0   0   0   0   0   0   0   0   0   0 256   1   0   7   0  13   0   0   1   0   7   0   0   0 |   m = M
+   3   0   1   4   0   1   0   1   0   0   0   0  15 223   8   2   0   7   0   0   3   0   9   3   1   0 |   n = N
+   4   1   3  10   0   1   0   0   0   2   0   2   6   2 181   8  16  11   4   0   3   3   1   1   1   0 |   o = O
+   0   4   0   3   0  13   2   0   0   1   0   0   1   0   2 242   0   3   4   0   1   0   2   0   8   0 |   p = P
+   3  12   0   0   0   0   4   0   3   0   0   1   1   0  24   0 160   5  21   0   0   4   0   7   6   0 |   q = Q
+   9   4   0   6   0   0   0   0   0   0   2   0   7   0   0   3   0 206   0   0   0   0   2  13   0   0 |   r = R
+   6   8   0   4   4   4   1   0   5   4   0   2   0   0   0   2   2  10 135   1   0   0   0  23   4  30 |   s = S
+   0   1   0   8   9   6   1   0   1   3   5   0   0   0   0   0   1   2   4 220   0   1   0   5   4   8 |   t = T
+   1   0   7   1   0   0   0   0   0   4   0   2  12   7   7   0   6   3   0   0 238   2   5   0   0   0 |   u = U
+  13   0   1   1   0   0   0   0   0   0   0   0   0   2   0   6   4   1   0   2   1 229   2   1  10   0 |   v = V
+   6   0   3   0   0   2   0   0   0   0   1   0  14   7   0   5   1   5   0   0   0   3 228   0   0   0 |   w = W
+   3   1   0   8   5   1   1   0   0   0   9   1   0   0   0   0   1   2   7   3   0   0   0 208   1   7 |   x = X
+   1   0   0   2   0   6   0   0   0   0   0   0   1   2   0   6   5   0   6  10   0   9   1   9 183   0 |   y = Y
+   0   0   0   4   3   0   1   0   2  12   0   0   0   0   0   2   0   1  30   0   0   0   0   7   0 178 |   z = Z
+
+
