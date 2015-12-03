@@ -5,7 +5,7 @@
 
 **2. O Problema:** Análise da eficiência de técnicas de aprendizagem de máquina na detecção de Spam.
 
-**3. Descrição geral do experimento:** Clique [aqui](http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/)).
+**3. Descrição geral do experimento:** Clique [aqui](http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/).
 
 
 
