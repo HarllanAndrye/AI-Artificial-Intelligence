@@ -14,11 +14,13 @@ Seja um sistema Fuzzy para predizer o número de turistas visitando um resort.
  - Quantidade estimada de turistas (expressa em porcentagem da capacidade do resort).
 
 * Base de conhecimento - variáveis linguísticas
+
  - Entradas:
-   - Temperatura {fria, morna, quente};
-   - Luz do sol {nublado, parcialmente ensolarado, ensolarado}.
+	- Temperatura {fria, morna, quente};
+	- Luz do sol {nublado, parcialmente ensolarado, ensolarado}.
+
  - Saída:
-   - Turistas {baixo, médio, alto}.
+	- Turistas {baixo, médio, alto}.
 
 * Base de conhecimento - regras (definidas por um especialista):
 
