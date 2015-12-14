@@ -1,0 +1,125 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     nialm_data
+Instances:    18285
+Attributes:   3
+              diaSemana
+              hora
+              state
+Test mode:    split 66.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.06641445641971823
+    Node 2    0.9043202079105327
+    Node 3    0.9057214072401841
+    Node 4    0.9211799277605648
+    Node 5    0.8842858729241326
+    Node 6    0.8637095273529727
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.0664572379751012
+    Node 2    -0.9001839908674821
+    Node 3    -0.8939023142796713
+    Node 4    -0.9088389024931549
+    Node 5    -0.9092313706971772
+    Node 6    -0.8759189981504202
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -1.4422187278707697
+    Attrib diaSemana=Segunda    0.4601602085882104
+    Attrib diaSemana=Terca    1.636246166603289
+    Attrib diaSemana=Quarta    0.3344730481409533
+    Attrib diaSemana=Quinta    0.17918101879913878
+    Attrib diaSemana=Sexta    1.1800205688896546
+    Attrib diaSemana=Sabado    1.6113959418162938
+    Attrib diaSemana=Domingo    1.5670350042272265
+    Attrib hora    -2.3043612349896265
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -1.3669984283915788
+    Attrib diaSemana=Segunda    0.46372887626719317
+    Attrib diaSemana=Terca    1.6371392858789406
+    Attrib diaSemana=Quarta    0.3446597166351926
+    Attrib diaSemana=Quinta    0.2224493162968787
+    Attrib diaSemana=Sexta    1.1837025371856498
+    Attrib diaSemana=Sabado    1.6046561931997354
+    Attrib diaSemana=Domingo    1.5616898197556939
+    Attrib hora    -2.281323576313645
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -1.2950906596652052
+    Attrib diaSemana=Segunda    0.18145925373427335
+    Attrib diaSemana=Terca    1.4738237813434414
+    Attrib diaSemana=Quarta    0.30499751578074535
+    Attrib diaSemana=Quinta    0.7883183524583158
+    Attrib diaSemana=Sexta    1.029542957299414
+    Attrib diaSemana=Sabado    1.3115330993323984
+    Attrib diaSemana=Domingo    1.2967905321583357
+    Attrib hora    -1.7818450189044097
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -1.3455017491718253
+    Attrib diaSemana=Segunda    0.3607009691183902
+    Attrib diaSemana=Terca    1.5669286146804813
+    Attrib diaSemana=Quarta    0.3141225621938765
+    Attrib diaSemana=Quinta    0.43567309331150134
+    Attrib diaSemana=Sexta    1.126045014618497
+    Attrib diaSemana=Sabado    1.4860251156257422
+    Attrib diaSemana=Domingo    1.450404778837647
+    Attrib hora    -2.121528910603625
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -1.3086479635516228
+    Attrib diaSemana=Segunda    -0.1205050792080303
+    Attrib diaSemana=Terca    0.6782450934149057
+    Attrib diaSemana=Quarta    0.6131334905716258
+    Attrib diaSemana=Quinta    1.368935962215328
+    Attrib diaSemana=Sexta    0.8238683852505225
+    Attrib diaSemana=Sabado    1.402044460794965
+    Attrib diaSemana=Domingo    1.5351865450271749
+    Attrib hora    -0.4512171779274899
+Class TURN_OFF
+    Input
+    Node 0
+Class TURN_ON
+    Input
+    Node 1
+
+
+Time taken to build model: 11.86 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on training split: 0.01 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        3094               49.7668 %
+Incorrectly Classified Instances      3123               50.2332 %
+Kappa statistic                          0     
+Mean absolute error                      0.5003
+Root mean squared error                  0.5042
+Relative absolute error                100.0722 %
+Root relative squared error            100.8448 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances             6217     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    1,000    0,498      1,000    0,665      0,000    0,500     0,496     TURN_OFF
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,500     0,507     TURN_ON
+Weighted Avg.    0,498    0,498    0,248      0,498    0,331      0,000    0,500     0,501     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 3094    0 |    a = TURN_OFF
+ 3123    0 |    b = TURN_ON
+
+

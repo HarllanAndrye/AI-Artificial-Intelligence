@@ -1,0 +1,70 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     nialm_data
+Instances:    18285
+Attributes:   3
+              diaSemana
+              hora
+              state
+Test mode:    split 66.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                  Class
+Attribute      TURN_OFF  TURN_ON
+                  (0.5)    (0.5)
+=================================
+diaSemana
+  Segunda          709.0    741.0
+  Terca            921.0    933.0
+  Quarta          1267.0   1312.0
+  Quinta          2393.0   2435.0
+  Sexta           1988.0   2021.0
+  Sabado          1208.0   1205.0
+  Domingo          589.0    577.0
+  [total]         9075.0   9224.0
+
+hora
+  mean            14.279  14.4102
+  std. dev.       5.2124   5.1663
+  weight sum        9068     9217
+  precision            1        1
+
+
+
+Time taken to build model: 0.04 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on training split: 0.02 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        3083               49.5898 %
+Incorrectly Classified Instances      3134               50.4102 %
+Kappa statistic                         -0.0106
+Mean absolute error                      0.5001
+Root mean squared error                  0.5004
+Relative absolute error                100.0228 %
+Root relative squared error            100.0707 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances             6217     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,239    0,249    0,487      0,239    0,320      -0,012   0,495     0,494     TURN_OFF
+                 0,751    0,761    0,499      0,751    0,599      -0,012   0,495     0,499     TURN_ON
+Weighted Avg.    0,496    0,506    0,493      0,496    0,461      -0,012   0,495     0,496     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  739 2355 |    a = TURN_OFF
+  779 2344 |    b = TURN_ON
+
+

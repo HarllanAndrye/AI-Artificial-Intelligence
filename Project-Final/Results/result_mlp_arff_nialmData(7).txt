@@ -1,0 +1,1004 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     nialm_data
+Instances:    9217
+Attributes:   3
+              diaSemana
+              hora
+              Appliance
+Test mode:    split 66.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -2.0200337589589963
+    Node 10    0.18961722140632098
+    Node 11    0.6166682346197371
+    Node 12    -1.3593206440102494
+    Node 13    0.5793039909313583
+    Node 14    0.054632812464622774
+    Node 15    1.4092354863344427
+    Node 16    -0.8367702077470852
+    Node 17    1.5702326719283446
+    Node 18    0.4697044711318422
+    Node 19    -1.7957882914281562
+    Node 20    -0.48398061396887987
+    Node 21    0.8366837923963779
+    Node 22    1.1396169615310412
+    Node 23    -1.0809720600555541
+    Node 24    -0.5721819035466176
+    Node 25    0.6476919968601369
+    Node 26    0.7380670931218988
+    Node 27    1.02346421010216
+    Node 28    0.8109559530963829
+    Node 29    -0.37202537296848476
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -1.5548522799320779
+    Node 10    -0.9060509644916029
+    Node 11    -0.10469930099501783
+    Node 12    1.734304472509694
+    Node 13    -1.6340402906147469
+    Node 14    0.19601599604875256
+    Node 15    0.2931934684622097
+    Node 16    0.6819758609625854
+    Node 17    -1.245280229809575
+    Node 18    -1.8206699926337837
+    Node 19    -1.8785854509060547
+    Node 20    -0.24959199272464944
+    Node 21    0.22024287979781015
+    Node 22    -0.32841960551274024
+    Node 23    -0.333729312695148
+    Node 24    -0.6359836755411041
+    Node 25    -0.9034714975801499
+    Node 26    1.4423990480719961
+    Node 27    -0.4506376170087359
+    Node 28    1.0342907609204772
+    Node 29    -0.7920424136098024
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -1.372671238954034
+    Node 10    -1.5831931445624519
+    Node 11    -0.6000965020294344
+    Node 12    0.3439438032798407
+    Node 13    1.1291175330156027
+    Node 14    -1.0668914762238328
+    Node 15    -0.543385093991343
+    Node 16    0.71006994124659
+    Node 17    1.1182388843625064
+    Node 18    -0.7078986183215319
+    Node 19    -1.9900678268975682
+    Node 20    0.6131226921320772
+    Node 21    -1.7661441667782758
+    Node 22    -0.25272415986347146
+    Node 23    0.4756372336162738
+    Node 24    1.0438910930109326
+    Node 25    0.6292303985985893
+    Node 26    -1.3910595503805898
+    Node 27    -0.5342030585693032
+    Node 28    -0.28231913188698265
+    Node 29    0.7904707486040276
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -3.755088692834932
+    Node 10    -1.9739411454576639
+    Node 11    -3.227390547890134
+    Node 12    1.5319665573548173
+    Node 13    -0.029558697557274482
+    Node 14    -0.1616540280332718
+    Node 15    -0.08729574987591257
+    Node 16    0.3233773314475916
+    Node 17    -1.1517473692528866
+    Node 18    1.6289749877981499
+    Node 19    -1.338099068684562
+    Node 20    0.9452611089518619
+    Node 21    -0.5889911127444056
+    Node 22    -0.8990014500337048
+    Node 23    -2.5706738115861643
+    Node 24    0.4519870548476349
+    Node 25    -0.19727421031705786
+    Node 26    -0.2798463896752376
+    Node 27    -1.1454538365985991
+    Node 28    0.016906143107849825
+    Node 29    -0.7438329075889358
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -4.8135421236234635
+    Node 10    -3.4340337188525694
+    Node 11    -0.5288513912856205
+    Node 12    -0.8083001597572551
+    Node 13    -1.7658948939944068
+    Node 14    -0.5115438521158493
+    Node 15    -0.8063247922637212
+    Node 16    -1.673745746665501
+    Node 17    -4.363586419382827
+    Node 18    3.530525598556621
+    Node 19    2.519269298561622
+    Node 20    0.7572263605071056
+    Node 21    -0.505887709042709
+    Node 22    -1.1591881536224686
+    Node 23    -0.4277921007384007
+    Node 24    -3.251602043414845
+    Node 25    -1.360125828727269
+    Node 26    -0.764920813723872
+    Node 27    -4.743952548815469
+    Node 28    -1.361336456035093
+    Node 29    -3.5739445934774907
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -3.184809652607341
+    Node 10    1.5963048310181944
+    Node 11    -1.3952403987653381
+    Node 12    0.8763561152732595
+    Node 13    -3.4405895952612635
+    Node 14    0.16251133820986682
+    Node 15    -2.3162820988134487
+    Node 16    1.5264606768221118
+    Node 17    -3.0016652949848908
+    Node 18    1.8811659523697142
+    Node 19    1.518486564405741
+    Node 20    -0.5392194459947812
+    Node 21    -3.4155591729512755
+    Node 22    -0.20178305825517343
+    Node 23    -0.6741967074050247
+    Node 24    0.5845872253181447
+    Node 25    -3.127047034821407
+    Node 26    -0.9279115917109803
+    Node 27    1.5180552796313076
+    Node 28    -1.0389684780650754
+    Node 29    1.9513314372565185
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -1.1133737610774757
+    Node 10    -1.23631725700829
+    Node 11    0.41291440944064217
+    Node 12    -3.7077559582580935
+    Node 13    -0.7629336362040839
+    Node 14    1.1564121902735216
+    Node 15    -1.1615183507971878
+    Node 16    -1.4592176262686
+    Node 17    -2.83182011708128
+    Node 18    0.6066423293427539
+    Node 19    1.7122377963471413
+    Node 20    -1.2563078703219805
+    Node 21    0.6967876622005839
+    Node 22    -0.21533396394740498
+    Node 23    -0.5985707458366167
+    Node 24    -0.39541601374559376
+    Node 25    -0.5118037430069625
+    Node 26    0.0048488522165987015
+    Node 27    -0.2040932297789972
+    Node 28    -1.27329394987521
+    Node 29    -0.7441254037052195
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -2.899509949754635
+    Node 10    0.17087155466854614
+    Node 11    -1.5794060633864164
+    Node 12    0.2622198365080313
+    Node 13    -1.242870576904373
+    Node 14    -0.1826530658110655
+    Node 15    -1.4134463650729068
+    Node 16    0.26520056754323335
+    Node 17    0.4344354838139498
+    Node 18    -1.6441966760393159
+    Node 19    -2.1551634854393407
+    Node 20    0.8394712469003959
+    Node 21    -6.388101323216412E-4
+    Node 22    0.6250112689100402
+    Node 23    1.5265301187713176
+    Node 24    -0.07603670442971035
+    Node 25    -0.22111911412061902
+    Node 26    -0.761555008169894
+    Node 27    0.004554689598629088
+    Node 28    -0.3474560351971527
+    Node 29    0.10806778281334324
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -5.900914120974979
+    Node 10    -2.6567222249574782
+    Node 11    -0.1743404174202014
+    Node 12    -1.1847036800926598
+    Node 13    -4.7530192433293506
+    Node 14    -0.12216213769847131
+    Node 15    1.8917982097730985
+    Node 16    -0.7762836222437768
+    Node 17    -2.4393385831513625
+    Node 18    -0.17635937860262607
+    Node 19    -2.32813059304803
+    Node 20    0.19223147533075188
+    Node 21    1.8163850971875675
+    Node 22    -0.38596273917380214
+    Node 23    -2.634592142011369
+    Node 24    -0.7218640465669591
+    Node 25    -2.853832612639416
+    Node 26    3.519634409665243
+    Node 27    0.05753109316382372
+    Node 28    3.007103215018496
+    Node 29    0.13298777763984143
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -5.80789654103997
+    Node 10    -0.9265579961870194
+    Node 11    -0.805683874267114
+    Node 12    -0.7690255392347706
+    Node 13    -0.7564202781827153
+    Node 14    -0.9206372253889643
+    Node 15    -0.7885605041071894
+    Node 16    -0.7674541541337867
+    Node 17    -1.19720086950792
+    Node 18    -1.011658881483374
+    Node 19    -1.2892547915679884
+    Node 20    -1.0412642171666202
+    Node 21    -0.8069939496168533
+    Node 22    -0.8666887599423028
+    Node 23    -1.0056517712217659
+    Node 24    -1.05696858475596
+    Node 25    -0.8304421711246807
+    Node 26    -0.94594300135818
+    Node 27    -1.0505881090046054
+    Node 28    -1.0948265839705495
+    Node 29    -1.068717988022509
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -0.6375435124641182
+    Attrib diaSemana=Segunda    4.175807284242927
+    Attrib diaSemana=Terca    -2.3318677517250364
+    Attrib diaSemana=Quarta    -3.3806058663054728
+    Attrib diaSemana=Quinta    8.343707789178817
+    Attrib diaSemana=Sexta    -0.5792142376731519
+    Attrib diaSemana=Sabado    -1.8911120164899937
+    Attrib diaSemana=Domingo    -1.0455625851290355
+    Attrib hora=00    -1.5993176558615907
+    Attrib hora=01    3.2355521194844328
+    Attrib hora=02    -1.6908937000351316
+    Attrib hora=03    -1.8937256451287103
+    Attrib hora=04    -0.7639247875327595
+    Attrib hora=05    -0.5440409731102966
+    Attrib hora=06    -0.7935741741514709
+    Attrib hora=07    -1.4327927137971739
+    Attrib hora=08    -1.191702400561938
+    Attrib hora=09    -0.45219411107935786
+    Attrib hora=10    -0.3893502095480768
+    Attrib hora=11    -0.19994540407009914
+    Attrib hora=12    -1.1921538675573045
+    Attrib hora=13    -2.3621211231732233
+    Attrib hora=14    -0.5773089280864857
+    Attrib hora=15    2.8435999966441035
+    Attrib hora=16    5.113587849700376
+    Attrib hora=17    8.930208201944035
+    Attrib hora=18    5.808890791136662
+    Attrib hora=19    3.2624428905444156
+    Attrib hora=20    4.019315559358404
+    Attrib hora=21    -1.3454819973335603
+    Attrib hora=22    -1.1171880065275737
+    Attrib hora=23    -1.0874909544190614
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -0.6529911054822074
+    Attrib diaSemana=Segunda    -3.2351686473139294
+    Attrib diaSemana=Terca    1.6160330565942038
+    Attrib diaSemana=Quarta    -3.9386800729548215
+    Attrib diaSemana=Quinta    -4.747607616034027
+    Attrib diaSemana=Sexta    9.154693813156538
+    Attrib diaSemana=Sabado    4.429731130100145
+    Attrib diaSemana=Domingo    0.18297470025785967
+    Attrib hora=00    -1.61696573955087
+    Attrib hora=01    1.2563282889525096
+    Attrib hora=02    3.058687630913186
+    Attrib hora=03    -2.414138414066267
+    Attrib hora=04    -2.376429880483045
+    Attrib hora=05    -2.0023949184933234
+    Attrib hora=06    -1.8301503312837042
+    Attrib hora=07    -2.1747574683844055
+    Attrib hora=08    -0.8664535229534994
+    Attrib hora=09    -2.754094720103873
+    Attrib hora=10    -2.0215314059189926
+    Attrib hora=11    2.207938248701579
+    Attrib hora=12    -3.3363820693354453
+    Attrib hora=13    7.869832220981094
+    Attrib hora=14    10.918520160793559
+    Attrib hora=15    3.6857782373580372
+    Attrib hora=16    -0.4006135296667355
+    Attrib hora=17    6.9184913216866315
+    Attrib hora=18    -3.1386093384133393
+    Attrib hora=19    7.019627487791475
+    Attrib hora=20    3.3229782589547194
+    Attrib hora=21    -1.8062742411471955
+    Attrib hora=22    -1.379383920494271
+    Attrib hora=23    -2.827146442313735
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    -0.578707718090518
+    Attrib diaSemana=Segunda    -1.0553786641376341
+    Attrib diaSemana=Terca    -0.9943169961014278
+    Attrib diaSemana=Quarta    -0.6290139166077541
+    Attrib diaSemana=Quinta    0.3544210026504007
+    Attrib diaSemana=Sexta    -0.2306248984875096
+    Attrib diaSemana=Sabado    5.2554168799480205
+    Attrib diaSemana=Domingo    0.3331839179489227
+    Attrib hora=00    0.7810469888293949
+    Attrib hora=01    4.648746676820333
+    Attrib hora=02    1.567092969844572
+    Attrib hora=03    3.724134726376875
+    Attrib hora=04    -0.6696014341070282
+    Attrib hora=05    3.7580981926353934
+    Attrib hora=06    1.2581127080587602
+    Attrib hora=07    0.12900759876006754
+    Attrib hora=08    -0.07944543191881523
+    Attrib hora=09    -0.654638328534707
+    Attrib hora=10    -1.1689604115293892
+    Attrib hora=11    0.6353978007252161
+    Attrib hora=12    4.402190010832025
+    Attrib hora=13    -1.7757565539982214
+    Attrib hora=14    -1.9058378585347713
+    Attrib hora=15    -1.7835925434675743
+    Attrib hora=16    -0.45921345668803965
+    Attrib hora=17    -1.075677106762185
+    Attrib hora=18    5.744267214595004
+    Attrib hora=19    -0.40908528944252787
+    Attrib hora=20    -0.7714861595233117
+    Attrib hora=21    -0.8675448016955231
+    Attrib hora=22    -1.8185054112082473
+    Attrib hora=23    -0.09017977747703276
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -0.5125499963026592
+    Attrib diaSemana=Segunda    7.915297254073592
+    Attrib diaSemana=Terca    -4.646222155000795
+    Attrib diaSemana=Quarta    -3.2996891880884234
+    Attrib diaSemana=Quinta    0.5430961520297195
+    Attrib diaSemana=Sexta    -4.64670101848353
+    Attrib diaSemana=Sabado    5.906024598676095
+    Attrib diaSemana=Domingo    0.48618428692894683
+    Attrib hora=00    1.2642885006482107
+    Attrib hora=01    5.969322467135603
+    Attrib hora=02    8.553748295388568
+    Attrib hora=03    2.211141070475657
+    Attrib hora=04    2.3662348779614795
+    Attrib hora=05    9.673061632097996
+    Attrib hora=06    7.079522550614985
+    Attrib hora=07    1.3153460226773521
+    Attrib hora=08    7.525917443812899
+    Attrib hora=09    -4.2867957405845445
+    Attrib hora=10    -3.9730039183604364
+    Attrib hora=11    -4.233671381746228
+    Attrib hora=12    -3.5213067641356854
+    Attrib hora=13    1.3738841937435446
+    Attrib hora=14    -2.134821871136176
+    Attrib hora=15    -3.3574308700703033
+    Attrib hora=16    3.2601532225495964
+    Attrib hora=17    -4.663847616971333
+    Attrib hora=18    -3.723766889348318
+    Attrib hora=19    -3.9421386813500927
+    Attrib hora=20    -3.6985044288052342
+    Attrib hora=21    -1.9144186987070215
+    Attrib hora=22    -4.318550978269885
+    Attrib hora=23    3.578825985489711
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    -0.6496637132285613
+    Attrib diaSemana=Segunda    7.137304473637675
+    Attrib diaSemana=Terca    -2.8753419319171387
+    Attrib diaSemana=Quarta    -2.552532718527696
+    Attrib diaSemana=Quinta    -1.157140687548026
+    Attrib diaSemana=Sexta    -1.1286097012432539
+    Attrib diaSemana=Sabado    1.020238105648935
+    Attrib diaSemana=Domingo    2.666795677117711
+    Attrib hora=00    3.0640303654306718
+    Attrib hora=01    -1.106801926837083
+    Attrib hora=02    -0.7099428354078543
+    Attrib hora=03    1.779562768543669
+    Attrib hora=04    -0.5937627589739312
+    Attrib hora=05    -0.609743746704134
+    Attrib hora=06    -0.825472131243234
+    Attrib hora=07    0.7119411557468532
+    Attrib hora=08    1.5182946052122175
+    Attrib hora=09    -1.0039187592226217
+    Attrib hora=10    8.392356667621442
+    Attrib hora=11    4.116140800883891
+    Attrib hora=12    -0.4887487475406088
+    Attrib hora=13    -1.3424970366420623
+    Attrib hora=14    -1.1961853831297637
+    Attrib hora=15    -0.26529406840171604
+    Attrib hora=16    3.0900980348259406
+    Attrib hora=17    0.7365036378862881
+    Attrib hora=18    1.2485765532206095
+    Attrib hora=19    -1.1920987480243854
+    Attrib hora=20    -0.7405271973329935
+    Attrib hora=21    2.143668971894121
+    Attrib hora=22    -1.705870681776629
+    Attrib hora=23    -1.6446977727712626
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    -0.5103957424537824
+    Attrib diaSemana=Segunda    4.735963072505569
+    Attrib diaSemana=Terca    -4.062549834714234
+    Attrib diaSemana=Quarta    7.814759226218435
+    Attrib diaSemana=Quinta    -2.6961199822134247
+    Attrib diaSemana=Sexta    -2.863893047135995
+    Attrib diaSemana=Sabado    1.7626224860808937
+    Attrib diaSemana=Domingo    -1.910645816574331
+    Attrib hora=00    12.755002694444338
+    Attrib hora=01    4.994843434361005
+    Attrib hora=02    8.246039197716383
+    Attrib hora=03    7.066858031172238
+    Attrib hora=04    1.217337376224382
+    Attrib hora=05    -1.69338309405914
+    Attrib hora=06    -0.5573705307632787
+    Attrib hora=07    2.3115027360789573
+    Attrib hora=08    2.663099637351596
+    Attrib hora=09    -0.6829728085406288
+    Attrib hora=10    -2.601679992419748
+    Attrib hora=11    -3.574544952000688
+    Attrib hora=12    -2.179901581253306
+    Attrib hora=13    -3.1206341012623233
+    Attrib hora=14    -3.1556532706066065
+    Attrib hora=15    -2.9774074428936443
+    Attrib hora=16    -0.9346280312666625
+    Attrib hora=17    -2.9578125466120877
+    Attrib hora=18    -2.4896066772644656
+    Attrib hora=19    -1.0599232188430758
+    Attrib hora=20    5.722589849080626
+    Attrib hora=21    0.7348457556077008
+    Attrib hora=22    -3.0623369533475167
+    Attrib hora=23    -2.400357902228541
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    -0.5043927794090934
+    Attrib diaSemana=Segunda    -2.4138111128786304
+    Attrib diaSemana=Terca    -0.5729519464647248
+    Attrib diaSemana=Quarta    2.6563185848520385
+    Attrib diaSemana=Quinta    5.491132496692367
+    Attrib diaSemana=Sexta    -2.0472357952109164
+    Attrib diaSemana=Sabado    -1.7648987320373168
+    Attrib diaSemana=Domingo    1.2467110214270865
+    Attrib hora=00    1.3790940098771653
+    Attrib hora=01    0.21044050751396393
+    Attrib hora=02    3.511996338268934
+    Attrib hora=03    2.2964711283166035
+    Attrib hora=04    1.5615817633702862
+    Attrib hora=05    0.8298831255108108
+    Attrib hora=06    1.6446278459617638
+    Attrib hora=07    3.849562291012099
+    Attrib hora=08    2.8743015721197445
+    Attrib hora=09    0.15182697587778426
+    Attrib hora=10    -1.3197890596700281
+    Attrib hora=11    0.2923818665520259
+    Attrib hora=12    -1.92294026965666
+    Attrib hora=13    -1.979586025245205
+    Attrib hora=14    -0.027962223351472974
+    Attrib hora=15    -1.4737129175706836
+    Attrib hora=16    -0.26073700157201307
+    Attrib hora=17    -1.4296804469394326
+    Attrib hora=18    -0.5197182121020373
+    Attrib hora=19    -2.1873867469456556
+    Attrib hora=20    6.593786728465555
+    Attrib hora=21    -1.587346346847882
+    Attrib hora=22    0.14200280057233305
+    Attrib hora=23    -1.13940889136704
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    -0.5851689548993538
+    Attrib diaSemana=Segunda    0.6445037927433316
+    Attrib diaSemana=Terca    -3.60752697519295
+    Attrib diaSemana=Quarta    -1.5329083679784865
+    Attrib diaSemana=Quinta    2.915725264284401
+    Attrib diaSemana=Sexta    8.920943987718124
+    Attrib diaSemana=Sabado    -3.3344497785758236
+    Attrib diaSemana=Domingo    -0.9941260794765692
+    Attrib hora=00    0.07334377551316625
+    Attrib hora=01    1.4280929949265844
+    Attrib hora=02    1.5910294274792964
+    Attrib hora=03    2.469337455591432
+    Attrib hora=04    0.9803231680267963
+    Attrib hora=05    -1.5222110817371566
+    Attrib hora=06    -0.8458833909815309
+    Attrib hora=07    0.9995639532899161
+    Attrib hora=08    -2.172975274036267
+    Attrib hora=09    -0.8574824831292519
+    Attrib hora=10    -3.4545624785023734
+    Attrib hora=11    2.5238277689078545
+    Attrib hora=12    -3.148921884092707
+    Attrib hora=13    8.074884280583191
+    Attrib hora=14    8.7673471838352
+    Attrib hora=15    8.084700375750579
+    Attrib hora=16    3.1096534071997035
+    Attrib hora=17    -2.235399738643574
+    Attrib hora=18    -3.7105895007393586
+    Attrib hora=19    -2.0676825058233894
+    Attrib hora=20    -2.4208808249222966
+    Attrib hora=21    1.6829787690612223
+    Attrib hora=22    -1.5375578527819875
+    Attrib hora=23    -2.7200055717122242
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    -0.6327594905606059
+    Attrib diaSemana=Segunda    -0.7843406628930062
+    Attrib diaSemana=Terca    1.8422662050071594
+    Attrib diaSemana=Quarta    2.2250680166425036
+    Attrib diaSemana=Quinta    5.759840597366229
+    Attrib diaSemana=Sexta    -3.0904200315089643
+    Attrib diaSemana=Sabado    0.6796729034268272
+    Attrib diaSemana=Domingo    -3.660080892707319
+    Attrib hora=00    -0.012117745486818342
+    Attrib hora=01    0.3430188444627168
+    Attrib hora=02    -0.5817523812648762
+    Attrib hora=03    -0.44161790727253775
+    Attrib hora=04    1.773557478030297
+    Attrib hora=05    -0.6365142629460724
+    Attrib hora=06    1.9653691745878854
+    Attrib hora=07    -0.3699229320075716
+    Attrib hora=08    0.6809539151645483
+    Attrib hora=09    -1.7069908797859694
+    Attrib hora=10    -1.3940752349872096
+    Attrib hora=11    0.46631822237453935
+    Attrib hora=12    3.699940651791483
+    Attrib hora=13    3.205000264891669
+    Attrib hora=14    -1.4244161045188788
+    Attrib hora=15    3.8238795053199706
+    Attrib hora=16    8.932547926941306
+    Attrib hora=17    -1.1329544502942301
+    Attrib hora=18    -0.14291581058404085
+    Attrib hora=19    -1.855257319283997
+    Attrib hora=20    -0.5479734271724267
+    Attrib hora=21    1.532086251929157
+    Attrib hora=22    -1.8801229490008882
+    Attrib hora=23    -1.3615364959733058
+Sigmoid Node 19
+    Inputs    Weights
+    Threshold    -0.8074968786199161
+    Attrib diaSemana=Segunda    -6.140766302810814
+    Attrib diaSemana=Terca    -0.602227177992534
+    Attrib diaSemana=Quarta    -0.7701359679594624
+    Attrib diaSemana=Quinta    3.1193378918266346
+    Attrib diaSemana=Sexta    4.376710962780321
+    Attrib diaSemana=Sabado    10.318761675528556
+    Attrib diaSemana=Domingo    -6.456477684473274
+    Attrib hora=00    -2.513007963889727
+    Attrib hora=01    -3.1689109589019795
+    Attrib hora=02    -0.46165510274991306
+    Attrib hora=03    -0.7374053970426536
+    Attrib hora=04    -0.9992418921176747
+    Attrib hora=05    0.040287686956169015
+    Attrib hora=06    -1.9613789415980596
+    Attrib hora=07    -2.0992734318758037
+    Attrib hora=08    -2.0071896563649245
+    Attrib hora=09    -3.312455776180094
+    Attrib hora=10    -3.331505709674292
+    Attrib hora=11    -2.106151411239578
+    Attrib hora=12    -1.1548849764805333
+    Attrib hora=13    3.0759073395189325
+    Attrib hora=14    2.063787245161829
+    Attrib hora=15    4.600722105097349
+    Attrib hora=16    3.0285569219933266
+    Attrib hora=17    8.587065678426105
+    Attrib hora=18    14.286628457742895
+    Attrib hora=19    15.207524837432969
+    Attrib hora=20    -3.275403088152915
+    Attrib hora=21    -2.8812875186831857
+    Attrib hora=22    -2.897576492183356
+    Attrib hora=23    -1.0618717739987615
+Sigmoid Node 20
+    Inputs    Weights
+    Threshold    -0.11517007838146599
+    Attrib diaSemana=Segunda    -1.352145971475473
+    Attrib diaSemana=Terca    -3.891665849271491
+    Attrib diaSemana=Quarta    4.397293710074205
+    Attrib diaSemana=Quinta    -1.08240397956786
+    Attrib diaSemana=Sexta    1.24255828928595
+    Attrib diaSemana=Sabado    -1.8840976988813636
+    Attrib diaSemana=Domingo    3.08038103087961
+    Attrib hora=00    -4.387869927366244
+    Attrib hora=01    5.0206794063015705
+    Attrib hora=02    6.723968839272029
+    Attrib hora=03    6.433886284738451
+    Attrib hora=04    4.083271562610084
+    Attrib hora=05    5.842386281858072
+    Attrib hora=06    6.128688877111808
+    Attrib hora=07    7.537612725444996
+    Attrib hora=08    4.213108323171912
+    Attrib hora=09    -2.7298820693825965
+    Attrib hora=10    -4.543580387420732
+    Attrib hora=11    -5.204566338601326
+    Attrib hora=12    -4.799247526760948
+    Attrib hora=13    -3.581984514693249
+    Attrib hora=14    -2.5161363042429543
+    Attrib hora=15    7.977951619297275
+    Attrib hora=16    -1.2094411141702683
+    Attrib hora=17    -4.0466009790765325
+    Attrib hora=18    -1.036912008159632
+    Attrib hora=19    -4.570541814942351
+    Attrib hora=20    -5.036807844370214
+    Attrib hora=21    -4.179058473558735
+    Attrib hora=22    -5.151130992128577
+    Attrib hora=23    1.1708553052799648
+Sigmoid Node 21
+    Inputs    Weights
+    Threshold    -0.5399823576323705
+    Attrib diaSemana=Segunda    -1.071041437198807
+    Attrib diaSemana=Terca    5.174513817367894
+    Attrib diaSemana=Quarta    -0.9839327461491405
+    Attrib diaSemana=Quinta    0.6948575668474662
+    Attrib diaSemana=Sexta    -0.4178140393336765
+    Attrib diaSemana=Sabado    -1.556214953045941
+    Attrib diaSemana=Domingo    0.6544378079777738
+    Attrib hora=00    2.9605671713539645
+    Attrib hora=01    3.915242270451032
+    Attrib hora=02    4.312922705417098
+    Attrib hora=03    -0.5162039940996614
+    Attrib hora=04    -0.6872097909685736
+    Attrib hora=05    -1.3755138235747923
+    Attrib hora=06    -0.5660467189781909
+    Attrib hora=07    0.44335745023746576
+    Attrib hora=08    -0.13443805015634652
+    Attrib hora=09    -1.4112512297091464
+    Attrib hora=10    4.919496593593478
+    Attrib hora=11    -0.629143344455582
+    Attrib hora=12    4.09626420233217
+    Attrib hora=13    0.5685105110848352
+    Attrib hora=14    -1.2777172406131714
+    Attrib hora=15    4.480336782879958
+    Attrib hora=16    -0.9284252086052908
+    Attrib hora=17    -1.4126880100691106
+    Attrib hora=18    -0.38875244326785185
+    Attrib hora=19    -0.9856463191462641
+    Attrib hora=20    -1.0757721604510515
+    Attrib hora=21    -0.4763648347471411
+    Attrib hora=22    -1.3486527878974628
+    Attrib hora=23    -1.757636634271925
+Sigmoid Node 22
+    Inputs    Weights
+    Threshold    -0.4782538661841258
+    Attrib diaSemana=Segunda    -5.026100103900158
+    Attrib diaSemana=Terca    2.665944087558066
+    Attrib diaSemana=Quarta    6.390192789184703
+    Attrib diaSemana=Quinta    -1.2374232880236533
+    Attrib diaSemana=Sexta    -5.573843119810074
+    Attrib diaSemana=Sabado    1.5248416016328812
+    Attrib diaSemana=Domingo    3.564905533156408
+    Attrib hora=00    1.9927135786494818
+    Attrib hora=01    9.648915525052589
+    Attrib hora=02    -2.660063687702941
+    Attrib hora=03    4.028065794090458
+    Attrib hora=04    8.882035877016003
+    Attrib hora=05    -1.8431040434006947
+    Attrib hora=06    -1.376753878683381
+    Attrib hora=07    -0.977559198004545
+    Attrib hora=08    -1.6451486988178001
+    Attrib hora=09    -2.8517022095509437
+    Attrib hora=10    -0.9106832651239448
+    Attrib hora=11    0.9985529490044522
+    Attrib hora=12    0.14356753575313042
+    Attrib hora=13    -2.4292163835941465
+    Attrib hora=14    5.41020763056675
+    Attrib hora=15    2.365327947495421
+    Attrib hora=16    -2.700075274663577
+    Attrib hora=17    -2.1313981553340398
+    Attrib hora=18    -3.0202253283324927
+    Attrib hora=19    -2.36909851050572
+    Attrib hora=20    -0.822875343822468
+    Attrib hora=21    4.610589116358783
+    Attrib hora=22    -2.6906464243946573
+    Attrib hora=23    0.1282276291560164
+Sigmoid Node 23
+    Inputs    Weights
+    Threshold    -0.6399856827190439
+    Attrib diaSemana=Segunda    -0.6063918835269612
+    Attrib diaSemana=Terca    3.2037736495965996
+    Attrib diaSemana=Quarta    7.033080707198856
+    Attrib diaSemana=Quinta    -3.480809445243057
+    Attrib diaSemana=Sexta    -3.5518827812369334
+    Attrib diaSemana=Sabado    -1.471489011800403
+    Attrib diaSemana=Domingo    2.1405226142630096
+    Attrib hora=00    -2.1872577343646005
+    Attrib hora=01    -1.6963508878639422
+    Attrib hora=02    0.7581931569064497
+    Attrib hora=03    -1.8155337340624234
+    Attrib hora=04    0.28892274212663704
+    Attrib hora=05    -1.019090406453938
+    Attrib hora=06    -0.5387375759704278
+    Attrib hora=07    3.5116449634891027
+    Attrib hora=08    2.943415047339543
+    Attrib hora=09    -1.4899570782087121
+    Attrib hora=10    -2.0204491078881164
+    Attrib hora=11    -1.9165942696326723
+    Attrib hora=12    5.503232599563442
+    Attrib hora=13    3.925636219481484
+    Attrib hora=14    9.677008880319509
+    Attrib hora=15    -2.1612248285334923
+    Attrib hora=16    7.169618869004749
+    Attrib hora=17    -1.0629788357072008
+    Attrib hora=18    0.126273816570294
+    Attrib hora=19    -1.3639401145177892
+    Attrib hora=20    -0.8510960906433044
+    Attrib hora=21    3.0250107130354227
+    Attrib hora=22    -2.5069416976926675
+    Attrib hora=23    -1.8508185910118717
+Sigmoid Node 24
+    Inputs    Weights
+    Threshold    -0.26640233481581854
+    Attrib diaSemana=Segunda    1.3808682417211453
+    Attrib diaSemana=Terca    4.99632775375716
+    Attrib diaSemana=Quarta    0.14541119415997938
+    Attrib diaSemana=Quinta    -3.313929808326848
+    Attrib diaSemana=Sexta    -1.9569487805637722
+    Attrib diaSemana=Sabado    -6.100841946744845
+    Attrib diaSemana=Domingo    6.082192297597457
+    Attrib hora=00    0.4060839199197206
+    Attrib hora=01    1.1480873475128839
+    Attrib hora=02    -3.612743696135892
+    Attrib hora=03    1.868893181965466
+    Attrib hora=04    7.831872341473097
+    Attrib hora=05    9.075667152591803
+    Attrib hora=06    9.20715504309596
+    Attrib hora=07    9.20758939577637
+    Attrib hora=08    7.528502392273667
+    Attrib hora=09    -4.179574479462348
+    Attrib hora=10    1.1989400815290936
+    Attrib hora=11    0.40701080484402136
+    Attrib hora=12    -4.976187015285996
+    Attrib hora=13    -2.4046199173951126
+    Attrib hora=14    -1.1890110247321743
+    Attrib hora=15    -5.185140468838675
+    Attrib hora=16    -3.636956342298987
+    Attrib hora=17    1.4525168308860492
+    Attrib hora=18    -3.564482440348898
+    Attrib hora=19    4.74790459256673
+    Attrib hora=20    -5.1953146058158834
+    Attrib hora=21    -5.242742102405285
+    Attrib hora=22    -4.608992191933374
+    Attrib hora=23    -4.536622112491419
+Sigmoid Node 25
+    Inputs    Weights
+    Threshold    -0.5304478144368115
+    Attrib diaSemana=Segunda    -4.9842489071840586
+    Attrib diaSemana=Terca    7.752096294099783
+    Attrib diaSemana=Quarta    -3.2578987792738032
+    Attrib diaSemana=Quinta    3.782797121280596
+    Attrib diaSemana=Sexta    1.1840352713354578
+    Attrib diaSemana=Sabado    0.08833314065140901
+    Attrib diaSemana=Domingo    -1.854248073172733
+    Attrib hora=00    -2.6550786731799447
+    Attrib hora=01    4.923728979945569
+    Attrib hora=02    3.706201928052818
+    Attrib hora=03    2.4087852358103863
+    Attrib hora=04    3.8017607264420343
+    Attrib hora=05    -3.379832075595203
+    Attrib hora=06    1.5712309795203436
+    Attrib hora=07    5.68074933034324
+    Attrib hora=08    0.3350790698799252
+    Attrib hora=09    -0.20794419206184886
+    Attrib hora=10    -2.1214578420254777
+    Attrib hora=11    2.505665712942956
+    Attrib hora=12    9.547863144137551
+    Attrib hora=13    -1.5859041781119818
+    Attrib hora=14    -3.4458996472985235
+    Attrib hora=15    -3.612792363056368
+    Attrib hora=16    -3.664658325712781
+    Attrib hora=17    -2.465001290930603
+    Attrib hora=18    1.0520907123377632
+    Attrib hora=19    -1.558947390229278
+    Attrib hora=20    -0.6372242518149055
+    Attrib hora=21    -3.4571222382876896
+    Attrib hora=22    -1.3037614155887898
+    Attrib hora=23    6.515986488047941
+Sigmoid Node 26
+    Inputs    Weights
+    Threshold    -0.5880257143102309
+    Attrib diaSemana=Segunda    2.6615034372245496
+    Attrib diaSemana=Terca    -4.7394477633768926
+    Attrib diaSemana=Quarta    -1.435857524913185
+    Attrib diaSemana=Quinta    -0.11395525681377724
+    Attrib diaSemana=Sexta    0.40663152677955133
+    Attrib diaSemana=Sabado    -0.12241076227949843
+    Attrib diaSemana=Domingo    6.558760018786437
+    Attrib hora=00    0.6341482498985751
+    Attrib hora=01    -0.45702436135917235
+    Attrib hora=02    -0.7699469440538629
+    Attrib hora=03    -0.5558912433549579
+    Attrib hora=04    -0.8763416330268226
+    Attrib hora=05    -0.7905956780182372
+    Attrib hora=06    -0.4002275326231544
+    Attrib hora=07    0.17216035660451118
+    Attrib hora=08    -0.5104574666681562
+    Attrib hora=09    -0.8326019344797589
+    Attrib hora=10    1.0256534304334173
+    Attrib hora=11    3.5418735482665094
+    Attrib hora=12    -1.0562673612428561
+    Attrib hora=13    0.7374486467264247
+    Attrib hora=14    -1.3821665110970962
+    Attrib hora=15    -0.2961581515623082
+    Attrib hora=16    5.419171671717232
+    Attrib hora=17    -0.8935316220773594
+    Attrib hora=18    1.0667264841575916
+    Attrib hora=19    -1.5105421489092823
+    Attrib hora=20    0.13344750741620537
+    Attrib hora=21    -1.4347898249766926
+    Attrib hora=22    2.650911852752427
+    Attrib hora=23    9.995000007008947
+Sigmoid Node 27
+    Inputs    Weights
+    Threshold    -0.43963987236944074
+    Attrib diaSemana=Segunda    2.0147704101945612E-4
+    Attrib diaSemana=Terca    2.888969922329539
+    Attrib diaSemana=Quarta    -2.6633661147192322
+    Attrib diaSemana=Quinta    -0.4728361274699462
+    Attrib diaSemana=Sexta    5.497216385376073
+    Attrib diaSemana=Sabado    -0.4650123862577491
+    Attrib diaSemana=Domingo    -2.8334609932880728
+    Attrib hora=00    1.6602693053338535
+    Attrib hora=01    4.155994258322033
+    Attrib hora=02    -1.1843098546055908
+    Attrib hora=03    2.7608886240089556
+    Attrib hora=04    -0.5066357052131154
+    Attrib hora=05    -0.7656300830156971
+    Attrib hora=06    -0.48218044277169947
+    Attrib hora=07    -1.8341943010522892
+    Attrib hora=08    -0.6791380792063965
+    Attrib hora=09    -2.023900940030972
+    Attrib hora=10    -1.0075650781606968
+    Attrib hora=11    -1.9474034033712448
+    Attrib hora=12    1.471243207634625
+    Attrib hora=13    -1.123541554638183
+    Attrib hora=14    -2.186966798529361
+    Attrib hora=15    7.452808563055474
+    Attrib hora=16    -1.4697596215267006
+    Attrib hora=17    -2.2229690667659905
+    Attrib hora=18    -1.0851765296021167
+    Attrib hora=19    -1.9450296729435506
+    Attrib hora=20    -1.5082275857976166
+    Attrib hora=21    -1.3052267429131263
+    Attrib hora=22    11.17434131570884
+    Attrib hora=23    3.3115991586551843
+Sigmoid Node 28
+    Inputs    Weights
+    Threshold    -0.37028825406525473
+    Attrib diaSemana=Segunda    2.653089808556069
+    Attrib diaSemana=Terca    4.864192989221505
+    Attrib diaSemana=Quarta    -3.911783201696522
+    Attrib diaSemana=Quinta    -0.10613819246296201
+    Attrib diaSemana=Sexta    -0.8652416280133004
+    Attrib diaSemana=Sabado    7.200746133343205
+    Attrib diaSemana=Domingo    -8.280685771313605
+    Attrib hora=00    -1.560531307103277
+    Attrib hora=01    -4.618094542359877
+    Attrib hora=02    3.6759072413673377
+    Attrib hora=03    2.6013959392317987
+    Attrib hora=04    -2.0550895203715354
+    Attrib hora=05    -0.2468926608422713
+    Attrib hora=06    -1.4695181401441626
+    Attrib hora=07    -3.080017939038416
+    Attrib hora=08    2.9039956415176085
+    Attrib hora=09    8.71629868538356
+    Attrib hora=10    7.1747982185017944
+    Attrib hora=11    3.3634445948130933
+    Attrib hora=12    -4.7303293473010815
+    Attrib hora=13    -5.255986943511638
+    Attrib hora=14    -5.82002401061997
+    Attrib hora=15    -5.752661640572146
+    Attrib hora=16    -1.5611954812095368
+    Attrib hora=17    0.3504684708691861
+    Attrib hora=18    -4.10651842411913
+    Attrib hora=19    3.2882184677469373
+    Attrib hora=20    -1.5757642892829753
+    Attrib hora=21    10.291645440876197
+    Attrib hora=22    6.041953595569871
+    Attrib hora=23    0.7400437101862574
+Sigmoid Node 29
+    Inputs    Weights
+    Threshold    -0.7495784680744842
+    Attrib diaSemana=Segunda    2.033089890930978
+    Attrib diaSemana=Terca    0.04425287571277264
+    Attrib diaSemana=Quarta    5.226232696724444
+    Attrib diaSemana=Quinta    -4.067049002251813
+    Attrib diaSemana=Sexta    -4.2714151950299
+    Attrib diaSemana=Sabado    9.737828793654167
+    Attrib diaSemana=Domingo    -5.058712066294492
+    Attrib hora=00    -2.3644006102147914
+    Attrib hora=01    -0.3522415753936829
+    Attrib hora=02    -2.487300385423058
+    Attrib hora=03    6.575306540774208
+    Attrib hora=04    -2.798677682349934
+    Attrib hora=05    0.44370570161526096
+    Attrib hora=06    5.093050559093997
+    Attrib hora=07    2.377938536930167
+    Attrib hora=08    -1.550592133861492
+    Attrib hora=09    1.2334673176255841
+    Attrib hora=10    2.688262609600434
+    Attrib hora=11    -3.0442291866513425
+    Attrib hora=12    2.4256133456938094
+    Attrib hora=13    -2.8267225813845274
+    Attrib hora=14    2.572366550285339
+    Attrib hora=15    -3.203128504486323
+    Attrib hora=16    -3.0941924494605875
+    Attrib hora=17    12.05629846439193
+    Attrib hora=18    8.889924259781157
+    Attrib hora=19    -1.3387437756513483
+    Attrib hora=20    -0.5011313009536066
+    Attrib hora=21    -1.376942386506678
+    Attrib hora=22    -3.1409802881326074
+    Attrib hora=23    -0.9066039493087361
+Class Fan
+    Input
+    Node 0
+Class Shower
+    Input
+    Node 1
+Class Fridge
+    Input
+    Node 2
+Class SmallFridge
+    Input
+    Node 3
+Class Grill
+    Input
+    Node 4
+Class Toaster
+    Input
+    Node 5
+Class AirConditioning
+    Input
+    Node 6
+Class Desktop_Computer
+    Input
+    Node 7
+Class Other
+    Input
+    Node 8
+Class Microwave
+    Input
+    Node 9
+
+
+Time taken to build model: 56.66 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on training split: 0.05 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        1345               42.9164 %
+Incorrectly Classified Instances      1789               57.0836 %
+Kappa statistic                          0.2411
+Mean absolute error                      0.1299
+Root mean squared error                  0.2609
+Relative absolute error                 81.1457 %
+Root relative squared error             91.9789 %
+Coverage of cases (0.95 level)          94.097  %
+Mean rel. region size (0.95 level)      47.4314 %
+Total Number of Instances             3134     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,089    0,052    0,288      0,089    0,136      0,063    0,775     0,385     Fan
+                 0,035    0,011    0,256      0,035    0,062      0,062    0,759     0,246     Shower
+                 0,645    0,315    0,380      0,645    0,478      0,285    0,740     0,451     Fridge
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,653     0,032     SmallFridge
+                 0,232    0,007    0,432      0,232    0,302      0,306    0,919     0,252     Grill
+                 0,156    0,017    0,489      0,156    0,236      0,239    0,858     0,367     Toaster
+                 0,810    0,352    0,487      0,810    0,608      0,417    0,823     0,658     AirConditioning
+                 0,091    0,006    0,419      0,091    0,149      0,179    0,686     0,142     Desktop_Computer
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,873     0,054     Other
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,919     0,005     Microwave
+Weighted Avg.    0,429    0,188    0,383      0,429    0,355      0,242    0,785     0,441     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   <-- classified as
+  53  11 348   0   2  10 166   3   0   0 |   a = Fan
+  41  11 125   0   0   5 127   1   0   0 |   b = Shower
+  41  10 466   0  12  13 171  10   0   0 |   c = Fridge
+   3   1  36   0   0   2  17   0   0   0 |   d = SmallFridge
+   1   0   6   0  16   0  46   0   0   0 |   e = Grill
+   4   2  31   0   3  45 204   0   0   0 |   f = Toaster
+  25   3 125   0   4  13 741   4   0   0 |   g = AirConditioning
+  12   0  81   0   0   4  33  13   0   0 |   h = Desktop_Computer
+   4   5   6   0   0   0  16   0   0   0 |   i = Other
+   0   0   1   0   0   0   1   0   0   0 |   j = Microwave
+
+

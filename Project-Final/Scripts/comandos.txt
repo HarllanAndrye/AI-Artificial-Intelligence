@@ -1,0 +1,25 @@
+- remover linha de arquivo que contém determinada palavra
+	$ grep -v nome_a_remover arq_entrada > arq_saida
+- Então, no arquivo dos eventos fica assim:
+	$ grep -v TURN_OFF events_modify.csv > events_modify_TURN-ON.csv
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
